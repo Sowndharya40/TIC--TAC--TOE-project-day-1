@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_640.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+section{
+    text-align: center;
+    background-color: plum;
+    width: 500px;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+
+    width: 300px;
+    margin: 50px auto;
+}
+.cell{
+    font-family: "Permanent Marker" , cursive;
+    width: 100px;
+    height: 100px;
+    border: 2px solid purple;
+    cursor: pointer;
+    font-size: 60px;
+    line-height: 100px;
+}
